@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="Copy application.properties">
+  <target name="Copy application.properties">
+    <copy file="C:\Project\demo\target\classes/application-local.properties" tofile="C:\Project\demo\target\classes/application.properties" overwrite="true" />
+  </target>
+</project>
